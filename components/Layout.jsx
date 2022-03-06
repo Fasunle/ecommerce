@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <div className="container">
       <Nav />
-      <main>{children}</main>
+      <main className="relative top-40 md:top-0">{children}</main>
       <Footer />
     </div>
   );
