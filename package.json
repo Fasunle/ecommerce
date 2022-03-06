@@ -1,17 +1,24 @@
 {
   "name": "reservation",
+  "homepage": "https://Fasunle.github.io/ecommerce",
   "private": false,
   "author": {
     "url": "https://github.com/Fasunle/ecommerce.git",
     "email": "kfasunle@gmail.com",
     "name": "Kehinde Fasunle"
   },
-  "badges": ["reactjs", "nextjs", "tailwindcss"],
+  "badges": [
+    "reactjs",
+    "nextjs",
+    "tailwindcss"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "next": "12.0.10",
@@ -22,6 +29,7 @@
     "autoprefixer": "^10.4.2",
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.4.7",
     "tailwindcss": "^3.0.23"
   }
