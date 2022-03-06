@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities{
+    /* created to amnage all icons */
+    .icon {
+        @apply w-10 h-10 p-2;
+    }
+}
