@@ -1,11 +1,12 @@
 {
   "name": "reservation",
-  "private": true,
+  "private": false,
   "author": {
-    "url": "https://github.com/Fasunle/kaitind-restaurant.git",
+    "url": "https://github.com/Fasunle/ecommerce.git",
     "email": "kfasunle@gmail.com",
     "name": "Kehinde Fasunle"
   },
+  "badges": ["reactjs", "nextjs", "tailwindcss"],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
